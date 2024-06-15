@@ -1,0 +1,13 @@
+@media(max-width:750px){
+    .card{
+        width: 327px;
+        height: 580px;
+    }
+
+    .card .redes .rede{
+        height: 45px;
+        width: 279px;
+        margin: 0px;
+        margin-top: 15px;
+        }
+}

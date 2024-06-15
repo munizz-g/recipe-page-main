@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+:root{
+    --color-card: #ffffff;
+    --color-preparo: #7b284f;
+    --color-titulos: #854632;
+    --color-destaque-instrucoes:  #302d2c;
+    --color-texto: #5f574e;
+
+    --color-fundo-preparo:#fff5fa;
+    --color-fundo: #f3e6d8;
+    --color-hr: #e4ded8;
+    --general-source: 'Outfit';
+    --title-font: 'Young Serif';
+}
+
+body{
+    background-color: var(--color-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1995px;
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.instrucoes{
+    text-align: left;
+}

@@ -1,0 +1,148 @@
+.card{
+    width: 737px;
+    height: 1708px;
+    background-color: var(--color-card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.main-recipe{
+    width: 656px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-recipe img{
+    width: 656px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.main-recipe .recipe-name{
+    font-size: 40px;
+    margin-bottom: 33px;
+    font-family: var(--title-font);
+}
+
+.main-recipe .description{
+    font-weight: 400;
+    font-family: var(--general-source);
+}
+
+.preparation{
+    width: 655px;
+    height: 176px;
+    background-color: var(--color-fundo-preparo);
+    font-family: var(--general-source);
+    border-radius: 10px;
+    padding: 24px 28px 26px 28px;
+    box-sizing: border-box;
+}
+
+.method-of-preparation{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--color-preparo);
+}
+
+.passos {
+    list-style: none;
+}
+
+.passos li{
+    margin-bottom: 9px;   
+}
+
+.peso1{
+    font-weight: 600;
+    color: var(--color-texto);
+}
+
+.peso2{
+    font-weight: 400;
+}
+
+.ingredientes{
+    width: 650px;
+    height: 201px;
+}
+
+h2{
+    font-family: var(--title-font);
+    font-size: 28px;
+    margin-bottom: 27px;
+    color: var(--color-titulos);
+}
+
+.ingredients{
+    list-style-type: disc;
+    color: var(--color-titulos)
+}
+
+.ingredients li{
+    font-family: var(--general-source);
+    margin-bottom: 9px;
+    color: var(--color-texto);
+}
+
+hr{
+    width: 656px;
+    color: #e4ded8;
+}
+
+.Instruction{
+    text-align: left;
+    margin-bottom: 27px;
+}
+
+.Instruction ol li{
+    list-style: decimal;
+    line-height: 20px;
+}
+
+.Instruction ol li{
+    line-height: 20px;
+}
+
+.nutricao{
+    text-align: left;
+    width: 658px;
+    height: 265px;
+    margin-bottom: 27px;
+    font-family: var(--general-source);
+}
+
+.nutricao .nutritional-table{
+    color: var(--color-texto);
+    margin-bottom: 25px;
+}
+
+.values{
+    display: flex;
+    margin-bottom: 12px;
+    
+}
+
+.information{
+    margin-right: 300px;
+    width: 58px;
+    color: var(--color-texto);
+}
+
+.value{
+    font-weight: 600;
+    color: var(--color-titulos);
+}
+
+.hr{
+    margin-bottom: 13px;
+}
+
